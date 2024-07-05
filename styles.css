@@ -1,0 +1,91 @@
+:root {
+  /* Colors */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-lightgray: hsl(212, 45%, 89%);
+  --clr-lightblue: hsl(220, 15%, 55%);
+  --clr-darkblue: hsl(218, 44%, 22%);
+
+  /* Fonts Weights */
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* Font sizes */
+  --fs-small: 0.9375rem; /* 15px */
+  --fs-normal: 1rem; /* 16px */
+  --fs-medium: 1.25rem; /* 20px */ 
+
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  font-family: "Outfit", system-ui, "Helvetica Neue", sans-serif;
+  font-size: var(--fs-small);
+  background-color: var(--clr-lightgray);
+
+  /* for demo purposes */
+  /* centers the content on X and Y axis of the page */
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+/* main container */
+.card {
+  max-width: 20rem; /* 320px */
+  max-height: 31rem; /* 497px */
+  background-color: var(--clr-white);
+  border-radius: 1.25rem;
+  box-shadow: 0 1.6rem 1.6rem hsl(0, 0%, 0%, 0.05);
+  padding: 1.075rem;
+  margin: 1.25rem;
+}
+
+/* .card--featured {
+  border: 2px solid var(--clr-darkblue);
+} */
+
+.card__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.625rem;
+
+}
+
+.card__content {
+  text-align: center;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: var(--fs-medium);  
+  font-weight: var(--fw-bold);
+  color: var(--clr-darkblue);
+  line-height: 1.275;
+}
+
+p {
+  color: var(--clr-lightblue);
+  line-height: 1.2;
+  padding-top: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
