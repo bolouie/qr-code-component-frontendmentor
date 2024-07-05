@@ -24,8 +24,8 @@ This challenge involved building a QR code component and ensuring it looks as cl
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/bolouie/qr-code-component-frontendmentor)
+- Live Site URL: [GitHub Page](https://bolouie.github.io/qr-code-component-frontendmentor/)
 
 ## My process
 
